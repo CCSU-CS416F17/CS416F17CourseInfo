@@ -1,0 +1,14 @@
+h1{
+	font-style:italic;
+	color:blue;
+}
+ol{
+	list-style-type:upper-roman;
+}
+.important{
+	color:red;
+	text-align:center;
+}
+h1.important{
+	text-decoration:underline;
+}
