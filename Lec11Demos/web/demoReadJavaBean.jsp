@@ -6,9 +6,9 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <jsp:useBean id="myPerson" scope="page" class="edu.ccsu.Person" />
-<jsp:setProperty name="myPerson" property="firstName" param="firstName" />
-<jsp:setProperty name="myPerson" property="lastName" param="lastName" />
-<%-- <jsp:setProperty name="myPerson" property="*"/> --%>
+<%--<jsp:setProperty name="myPerson" property="firstName" param="firstName" /> --%>
+<%--<jsp:setProperty name="myPerson" property="lastName" param="lastName" /> --%>
+<jsp:setProperty name="myPerson" property="*"/>
 <!DOCTYPE html>
 <html>
     <head>

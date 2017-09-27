@@ -12,8 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <p>Server date and time: <% out.println(new Date()); %>
-        <p>Server date and time: <%= new Date() %>
+        <p>Server date and time: <% out.println(new Date()); %> </p>
+        <p>Server date and time: <%= new Date() %>  </p>
 
     </body>
 </html>
