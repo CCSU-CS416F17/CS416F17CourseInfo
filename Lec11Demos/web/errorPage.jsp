@@ -13,7 +13,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <img src="http://www.wyndsongwrites.com/wp-content/uploads/2011/02/fail-whale1.jpg" /><br/>
+        <img src="https://cdn.theatlantic.com/assets/media/img/mt/2015/01/fw-1/lead_large.png" /><br/><br/><br/>
+        <h3 style="background:blue;color:yellow">Good for debugging, but don't show what is below in a production environment!</h3>
         <%
                    out.println(exception.toString());
         %>
