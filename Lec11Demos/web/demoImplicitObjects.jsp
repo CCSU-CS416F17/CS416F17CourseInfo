@@ -43,7 +43,7 @@
                 </td>
             </tr>
         </table>
-                Read the session attribute using <b>JSP expressions</b>: 
+                Read the context attribute using <b>JSP expressions</b>: 
                 <%= application.getAttribute("counter") %>
         <br/>
         <a href="pageWithError.jsp">Link to page with error</a>
