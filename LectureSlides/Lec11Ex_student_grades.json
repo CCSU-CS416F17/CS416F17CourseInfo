@@ -1,0 +1,22 @@
+[
+ {"name":"John",
+  "studentId":"1244124",
+  "assignments":[
+   {"name":"HW1",
+    "grade":89},
+   {"name":"HW2",
+    "grade":93}],
+  "projects":[
+   { 
+   "name":"proj 1",
+   "grade":95,
+   "teamMembers":["John","Bob"]
+   },
+   { 
+   "name":"proj 2",
+   "grade":91,
+   "teamMembers":["John","Bob","Sam"]
+   }
+  ]
+ }
+]

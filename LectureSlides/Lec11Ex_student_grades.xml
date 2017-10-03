@@ -1,0 +1,28 @@
+<grades>
+  <student>
+    <name>John</name>
+	<student_id>1244124</student_id>
+	<assignments>
+	 <assignment>
+	   <assignment_name>HW 1</assignment_name>
+	   <grade>89</grade>
+	 </assignment>
+	 <assignment>
+	   <assignment_name>HW 2</assignment_name>
+	   <grade>93</grade>
+	 </assignment>
+	</assignments>
+	<projects>
+	  <project>
+	    <project_name>proj 1</project_name>
+		<grade>99</grade>
+		<team_members>
+		 <team_member>John</team_member>
+		 <team_member>Bob</team_member>
+		</team_members>
+	  </project>
+	  <project>...</project>
+	</projects>
+  </student>
+  <student>...</student>
+</grades>
