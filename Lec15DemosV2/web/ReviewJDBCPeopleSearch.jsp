@@ -41,7 +41,7 @@
 
     <body>
         <h1>Search for person</h1>
-        Name:<input type="text" id="lastName" name="lastName" value="" onkeyup="LookUp();"/>
+        Last Name:<input type="text" id="lastName" name="lastName" value="" onkeyup="LookUp();"/>
         <hr/>
         <div id="nameResults">
         </div>
