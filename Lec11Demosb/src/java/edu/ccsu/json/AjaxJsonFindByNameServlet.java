@@ -48,7 +48,7 @@ public class AjaxJsonFindByNameServlet extends HttpServlet {
             }
             firstNameStart += "%";
             Connection connection = dataSource.getConnection();
-            String selectSQL = "select * from person where firstname like ?";
+            String selectSQL = "select firstname, lastname from person where firstname like ?";
             PreparedStatement selectStatement = connection.prepareStatement(selectSQL);
             selectStatement.setString(1, firstNameStart);
             ResultSet resultSet = selectStatement.executeQuery();
