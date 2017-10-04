@@ -9,14 +9,14 @@ import javax.xml.bind.annotation.XmlRootElement;
  * @author Chad Williams
  */
 @XmlRootElement
-public class CD {
+public class Cd {
     private String artist;
     private String title;
     private Integer year;
     private Musicians musicians = new Musicians();
 
-    public CD(){}
-    public CD(String artist, String title, Integer year){
+    public Cd(){}
+    public Cd(String artist, String title, Integer year){
         this.artist = artist;
         this.title = title;
         this.year = year;
@@ -84,7 +84,7 @@ public class CD {
 }
 
 @XmlRootElement
-class CDs {
-    @XmlElement(name = "CD")
-    public ArrayList<CD> cdList = new ArrayList<CD>();
+class Cds {
+    @XmlElement(name = "cd")
+    public ArrayList<Cd> cdList = new ArrayList<Cd>();
 }
