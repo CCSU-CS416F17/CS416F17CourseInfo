@@ -28,7 +28,7 @@ and open the template in the editor.
                 if (xmlhttp.readyState == 4) {
                     if (xmlhttp.status == 200) {
                         var rootNode = xmlhttp.responseXML.documentElement
-                        var cdNodes = rootNode.getElementsByTagName("CD");
+                        var cdNodes = rootNode.getElementsByTagName("cd");
 
                         var tableTxt = "<table border=\"1\">";
                         tableTxt = tableTxt + "<tr><th>Title</th><th>First musician</th></tr>";
