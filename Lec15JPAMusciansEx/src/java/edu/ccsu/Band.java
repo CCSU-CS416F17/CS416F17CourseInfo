@@ -37,7 +37,8 @@ public class Band implements Serializable {
     @ManyToMany
     @JoinTable(name = "BandMusician",
             joinColumns = @JoinColumn(name = "bandId",
-                    referencedColumnName = "id"), inverseJoinColumns = @JoinColumn(name = "musicianId", referencedColumnName = "id"))
+                    referencedColumnName = "id"), 
+            inverseJoinColumns = @JoinColumn(name = "musicianId", referencedColumnName = "id"))
     private Set<Musician> musicians;
 
     public Long getId() {
