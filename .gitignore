@@ -28,3 +28,4 @@ SecurityDemos/web/malicious/
 SecurityDemos/src/java/edu/ccsu/malicious/
 */build/*
 */generated/*
+/Lec15JPAMusciansEx/nbproject/private/
